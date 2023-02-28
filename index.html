@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+ -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>LOIC DELORME</title>
+</head>
+
+<body>
+    <header class="hero-box">
+        <div class="flow-0">
+            <!-- <img src="media/img/Layer_1.png"> -->
+        </div>
+
+        <div id="parallax">
+
+        </div>
+        <h1 class="title-hero">LOIC DELORME</h1>
+
+        <div class="arrows">
+        </div>
+
+        <div class="arrow-box">
+        </div>
+
+    </header>
+    <main class="content">
+        <div class="header reali">
+            EN VEDETTE
+        </div>
+
+        <div class="plus_texte">
+            <a href="html/projets.html">PLUS DE PORJETS -></a>
+        </div>
+
+        <div class="swiper main-swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide modal-opener slide-1 facade-slide" onclick="modalOpen('facade')">
+                    <div class="color-form">
+                        <img src="https://i.imgur.com/YgTFJTb.png">
+                    </div>
+
+                    <img src="https://i.imgur.com/ZkPqlrB.png" class="project-img p-facade" alt="">
+                    <div class="class">
+                        VIDÉO
+                    </div>
+                    <div class="title">
+                        FAÇADE
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide modal-opener slide-2 portrait-slide" onclick="modalOpen('portrait')">
+                    <div class="color-form">
+                        <img src="https://i.imgur.com/oslDict.png">
+                    </div>
+
+                    <img src="https://i.imgur.com/HfOkWwO.png" class="project-img p-portrait">
+
+                    <div class="class">
+                        DESIGN
+                    </div>
+                    <div class="title">
+                        PORTRAITS
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide modal-opener slide-3 odyssee-slide" onclick="modalOpen('odyssee')">
+                    <div class="color-form">
+                        <img src="https://i.imgur.com/cZUmbwA.png">
+                    </div>
+
+                    <img src="https://i.imgur.com/uuc1uBN.png" class="project-img p-odyssee" alt="">
+
+                    <div class="class">
+                        3D
+                    </div>
+                    <div class="title">
+                        ODYSSÉE
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide modal-opener slide-4 caravan-slide" onclick="modalOpen('caravan')">
+                    <div class="color-form">
+                        <img src="https://i.imgur.com/slBfLT5.png">
+                    </div>
+
+                    <img src="https://i.imgur.com/p4JPVV0.png" class="project-img p-caravan" alt="">
+
+                    <div class="class">
+                        INTERACTIVITÉ
+                    </div>
+                    <div class="title">
+                        BROUHAHA
+                    </div>
+                </div>
+
+                <div class="swiper-slide modal-opener slide-5 jeux-slide" onclick="modalOpen('mesprit')">
+                    <div class="color-form">
+                        <img src="https://i.imgur.com/7dNZTFP.png">
+                    </div>
+
+                    <img src="https://i.imgur.com/Y69sctV.png" class="project-img p-facade" alt="">
+
+                    <div class="class">
+                        JEUX VIDÉO
+                    </div>
+                    <div class="title">
+                        MESPRIT
+                    </div>
+                </div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+
+        </div>
+
+
+        <div class="a-propos">
+            <div class="header">
+                À PROPOS
+            </div>
+            <div class="propos-wrapper">
+                <div class="logo-wrapper ">
+
+                    <div class="logo-grid">
+                        <!-- <div class="logo-box"> -->
+                        <img src="https://i.imgur.com/UCyWujZ.png" class="logo-img html" alt="html">
+                        <img src="https://i.imgur.com/vJAoxDo.png" class="logo-img css" alt="css">
+                        <img src="https://i.imgur.com/z3cADFI.png" class="logo-img scss" alt="scss">
+                        <img src="https://i.imgur.com/wVN4N2I.png" class="logo-img js" alt="js">
+                        <img src="https://i.imgur.com/usI7RmG.png" class="logo-img unity" alt="unity">
+                        <img src="https://i.imgur.com/eElKN0F.png" class="logo-img max" alt="max">
+                        <img src="https://i.imgur.com/qqnxmR1.png" class="logo-img da-vinci" alt="da vinci">
+                        <img src="https://i.imgur.com/2c3xkhG.png" class="logo-img maya" alt="maya">
+                        <img src="https://i.imgur.com/hL3AcN1.png" class="logo-img photoshop" alt="photoshop">
+                        <img src="https://i.imgur.com/xhVEUgE.png" class="logo-img xd" alt="xd">
+                        <img src="https://i.imgur.com/V7JTsRG.png" class="logo-img vcv" alt="vcv">
+                        <img src="https://i.imgur.com/x5ldO5b.png" class="logo-img reaper" alt="reaper">
+
+                    </div>
+                </div>
+                <div class="moi col-md-12">
+                    Je suis un étudiant en Techniques d'intégration multimédia. Durant les dernières années, j'ai pu
+                    développer des habiletés dans plusieurs domaines, tel que le
+                    design, la programmation web, la conception de jeux vidéo, l'interactivité, l'animation, la
+                    modélisation 3D et plus encore! Bien que plusieurs domaines m'intéressent, j'aimerais
+                    continuer ma carrière dans le web, le domaine où je suis le plus performant!
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer class="footer">
+        <div class="footer_left">
+            <div class="footer_left_txt">
+                <a href="mailto:locdelorme@gmail.com">locdelorme@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer_right">
+            <a href="https://www.behance.net/locdelorme" target="_blank">
+                <img src="https://i.imgur.com/ciri5jI.png" alt="behance_logo">
+            </a>
+            <a href="https://www.linkedin.com/in/lo%C3%AFc-delorme-70633024b/" target="_blank">
+                <img src="https://i.imgur.com/EoeaYx7.png" alt="linkedin_logo">
+            </a>
+        </div>
+    </footer>
+
+
+    <div class="modal-container facade-m">
+        <div class="modal">
+            <div class="modal-content">
+                <h2 class="header">FAÇADE</h2>
+                <div class="video">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/HYfxqlGgNFg"
+                        title="YouTube video player" frameborder="0"
+                        allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+
+                <div class="text-box">
+                    Pour Façade, le but du projet était de représenter la tendance humaine d'associer les gens que
+                    l'on
+                    rencontre à une facette de leur vie, à les mettre
+                    "dans une boite". De plus, nous voulions faire un parallèle avec la surcharge que la plupart des
+                    jeunes de notre société se mettent sur les épaules. Pour ce projet, je me suis chargé de
+                    l'entièreté
+                    du montage, de l'animation et la modélisation 3D de toutes les scènes incluant les cubes. De
+                    plus,
+                    je me suis occupé d'une grande partie de la bande sonore, de la réalisation et du montage.
+                    L'intégralité du projet a été réalisée avec Maya et Da Vinci Resolve.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container portrait-m">
+        <div class="modal">
+            <div class="modal-content">
+                <h2 class="header">PORTRAITS</h2>
+                <div class="video">
+
+                    <div class="card-swiper swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img src="https://i.imgur.com/aGvBQsa.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://i.imgur.com/0rGFUN7.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="	https://i.imgur.com/vV0ftrP.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://i.imgur.com/ofzKRpH.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://i.imgur.com/WJHMpGq.png" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="https://i.imgur.com/v2kuyhI.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- <img src="media/img/portrait.png" alt=""> -->
+                </div>
+
+                <div class="text-box">
+                    <!--Ce projet est le premier projet artistique que j’ai réalisé. Il consistait à réaliser 6
+                    déviations d’un portrait de sois, représentant différente facette de sa personnalité à l’aide de
+                    Photoshop. Dans cette optique, j’ai décidé de prendre plusieurs photos de moi que j’ai ensuite
+                    modifiées à l’entour d’un thème chacun (chaque thème représentait un de mes intérêts). J’ai choisi
+                    d’associer chaque thème avec une couleur, et je me suis servi de ces 5 couleurs pour créer les
+                    différents arrière-plans de mes portraits.-->
+
+                    Portraits est un projet que j'ai réalisé au tout début de mon parcours. Avec cette réalisation,
+                    je
+                    cherchais à illustrer mes différents champs d'intérêts par des autoportraits digitaux réalisés
+                    avec
+                    Photoshop. Chaque réalisation utilise des éléments attachés à l'univers de ma vie auquel je fais
+                    référence. De plus chaque réalisation est associée à une couleur qui est ensuite réutilisée dans
+                    l'arrière-plan de chaque portrait.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container odyssee-m">
+        <div class="modal">
+            <div class="modal-content">
+                <h2 class="header">ODYSSÉE</h2>
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/yiB1g6dr6q8" title="YouTube video player"
+                        frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <img src="https://i.imgur.com/uuc1uBN.png" alt="">
+                    <!-- <img src="media/img/moodboard_odyssee.png" alt=""> -->
+                </div>
+                <div class="text-box">
+                    Odyssée est un court métrage présentant plusieurs espaces immersifs. Suite à la Covid, moi et
+                    mon
+                    équipe voulions créer un projet rassembleur. Nous avons donc mis en scène une histoire joyeuse
+                    présentant plusieurs "fées" qui viennent mettre leurs différences de côté dans un voyage vers un
+                    monde
+                    meilleur.
+                    La partie d'animation 3D à été créée entièrement dans Maya alors que le montage a été fait dans
+                    Da
+                    Vinci Resolve. Je fus responsable de la partie "paradisiaque" du projet ainsi que du montage
+                    vidéo.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container caravan-m">
+        <div class="modal">
+            <div class="modal-content">
+                <h2 class="header">BROUHAHA</h2>
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/2VOn9aArCn0" title="YouTube video player"
+                        frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <img src="https://i.imgur.com/p4JPVV0.png" alt="">
+                </div>
+                <div class="text-box">
+                    BROUHAHA est un projet interactif ou un interacteur peut faire réagir un ensemble d'éléments
+                    visuels projetés sur un mur. De plus, une ambiance sonore quadriphonique permet à l'utilisateur
+                    d'être en immersion complète. BROUHAHA à vu le jour à l'aide des logiciels Cycling 74' Max, VCV
+                    Rack, TouchDesigner et d'une Kinect. J'ai personnellement été responsable de la partie
+                    impliquant
+                    l'implémentation d'un système de particules généré par TouchDesigner.
+
+                    <!-- Pour le visuel, notre projet mettra en scène deux à plusieurs environnements distincts. Le premier
+                    environnement aura des tons sombres de bleus, gris et mauves. Nous reproduirons un brouillard de
+                    particules cachant une ambiance mystérieuse. Quand l’interacteur rentrera, les particules bougeront
+                    de façon à laisser voir un autre environnement aux couleurs rougeâtres. Les particules s’ouvriront
+                    selon la position sur l’axe des X de l’interacteur et le nombre de particules seront selon sa
+                    position sur l’axe des Z. Donc, plus que celui-ci sera loin, plus que les particules cacheront
+                    l’environnement coloré, et vice-versa. Quand l’interacteur sortira de la scène, les particules,
+                    après un délai, refermera toute la scène colorée pour seulement laisser place au brouillard. Pour
+                    l’aspect sonore, le premier environnement sera au style ‘’Drone ambient’’, donc une ambiance sombre
+                    avec une grande présence sonore. Le deuxième environnement lui ira vers une atmosphère sonore
+                    futuriste avec un rythme rapide et continu. Quand l’interacteur sera détecté par le système, un son
+                    ressemblant à du bois qui s’entrechoque en écho se fera entendre. -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-container mesprit-m">
+        <div class="modal">
+            <div class="modal-content">
+                <h2 class="header">MESPRIT</h2>
+                <div class="video">
+                    <iframe width="100%" src="https://www.youtube.com/embed/P9oURkbmbhc" title="YouTube video player"
+                        frameborder="0" allow="clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+
+                    <img src="https://i.imgur.com/XugoNNP.png" alt="">
+                </div>
+
+                <div class="text-box">
+                    Mesprit est un court jeu de plateforme que j'ai codé en C# avec Unity. Le but consiste à se
+                    déplacer
+                    à travers d'un espace rempli de plateformes et d'ennemis afin de collectionner quatre clés qui
+                    permettront de finir le jeu. Je me suis chargé de la direction artistique, de la conception des
+                    "assets", du design sonore, de la
+                    programmation, etc. Tous les éléments visuels ont été conceptualisés à l'aide de Procreate et
+                    Photoshop, alors que les éléments sonores ont été composés à l'aide de VCV rack.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="sricpt.js"></script>
+</body>
+
+</html>
