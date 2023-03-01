@@ -9,16 +9,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="projets.css">
+    <link rel="stylesheet" href="..\css\projets.css">
+
     <title>LOIC DELORME</title>
 </head>
 
 <body>
-
-    <div class="header reali">
-        EN VEDETTE
+    <div id="app">
+        <div class="container">
+            <div class="header reali">
+                RÉALISATION
+            </div>
+            <div class="gradiant_line">
+                <div class="projects_grid">
+                    <div v-for="project in projectArr" class="project">
+                        <a href="">
+                            <div class="img_box">
+                                <img :src="project.image" class="project-img p-odyssee" alt="">
+                                <div class="over">
+                                    {{ project.name }}
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="../script/projets.js"></script>
 </body>
 
 </html>

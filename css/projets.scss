@@ -1,0 +1,87 @@
+@font-face {
+    src: url("../media/NeutralFace-Bold.woff2") format("woff2");
+    font-family: "neutral_bold";
+}
+@font-face {
+    src: url("../media/NeutralFace.woff2") format("woff2");
+    font-family: "neutral";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 40px 60px;
+}
+
+.header{
+    font-size: 5vw;
+    margin-left: 20px;
+    color: #000;
+    font-family: neutral_bold;
+    text-transform: uppercase;
+}
+
+.gradiant_line{
+    width: 100%;
+    height: 8px;
+    background-image: linear-gradient(to bottom right, orange,  red);
+    border-radius: 50px;
+}
+
+.projects_grid{
+    padding: 50px 20px;
+    display: grid;
+    position: relative;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 55px;
+}
+
+.project{
+    width: 100%;
+}
+
+.img_box{
+    border-radius: 15px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    transition-property: all;
+    transition-duration: 0.3s;
+    aspect-ratio: 16/9;
+    
+    
+    &:hover{
+        transform: scale(1.08);
+    }
+}
+
+.project-img{
+    width: 100%;
+    box-shadow: 0px 3px 20px rgba($color: #000000, $alpha: 0.30);
+    aspect-ratio: 16/9;
+}
+
+.over{
+    background-color: #00000092;
+    width: 100%;
+    opacity: 0%;
+    aspect-ratio: 16/9;
+    position: absolute;
+    top: 0;
+    transition-duration: 0.6s;
+    aspect-ratio: 16/9;
+    font-family: neutral_bold;
+    text-transform: uppercase;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+
+    &:hover{
+        opacity: 100%;
+    }
+}
