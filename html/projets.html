@@ -21,19 +21,22 @@
                 RÉALISATION
             </div>
             <div class="gradiant_line">
-                <div class="projects_grid">
-                    <div v-for="project in projectArr" class="project">
-                        <a href="">
-                            <div class="img_box">
-                                <img :src="project.image" class="project-img p-odyssee" alt="">
-                                <div class="over">
-                                    {{ project.name }}
-                                </div>
+
+            </div>
+            <div class="projects_grid">
+                <div v-for="project in projectArr" class="project">
+                    <a v-bind:href="project.name + '.html'">
+                        <div class="img_box">
+                            <img :src="project.image" class="project-img p-odyssee" alt="">
+                            <div class="over">
+                                <span class="uppercase"></span>{{ project.name }}
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                        <div class="box_test"></div>
+                    </a>
                 </div>
             </div>
+
         </div>
     </div>
 

@@ -11,11 +11,11 @@
 }
 
 .container {
-  padding: 40px 60px;
+  padding: 40px 10vw;
 }
 
 .header {
-  font-size: 5vw;
+  font-size: 5.2vw;
   margin-left: 20px;
   color: #000;
   font-family: neutral_bold;
@@ -40,6 +40,61 @@
 
 .project {
   width: 100%;
+  border-radius: 15px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  padding: 7px;
+}
+.project:nth-child(1) {
+  background: linear-gradient(rgba(255, 113, 65, 0.7254901961), rgba(255, 211, 65, 0.7254901961));
+}
+.project:nth-child(2) {
+  background: linear-gradient(rgba(255, 160, 65, 0.7254901961), rgba(249, 255, 65, 0.7254901961));
+}
+.project:nth-child(3) {
+  background: linear-gradient(rgba(255, 208, 65, 0.7254901961), rgba(198, 255, 65, 0.7254901961));
+}
+.project:nth-child(4) {
+  background: linear-gradient(rgba(255, 255, 65, 0.7254901961), rgba(147, 255, 65, 0.7254901961));
+}
+.project:nth-child(5) {
+  background: linear-gradient(rgba(208, 255, 65, 0.7254901961), rgba(97, 255, 65, 0.7254901961));
+}
+.project:nth-child(6) {
+  background: linear-gradient(rgba(160, 255, 65, 0.7254901961), rgba(65, 255, 84, 0.7254901961));
+}
+.project:nth-child(7) {
+  background: linear-gradient(rgba(113, 255, 65, 0.7254901961), rgba(65, 255, 135, 0.7254901961));
+}
+.project:nth-child(8) {
+  background: linear-gradient(rgba(65, 255, 65, 0.7254901961), rgba(65, 255, 185, 0.7254901961));
+}
+.project:nth-child(9) {
+  background: linear-gradient(rgba(65, 255, 113, 0.7254901961), rgba(65, 255, 236, 0.7254901961));
+}
+.project:nth-child(10) {
+  background: linear-gradient(rgba(65, 255, 160, 0.7254901961), rgba(65, 223, 255, 0.7254901961));
+}
+.project:nth-child(11) {
+  background: linear-gradient(rgba(65, 255, 208, 0.7254901961), rgba(65, 173, 255, 0.7254901961));
+}
+.project:nth-child(12) {
+  background: linear-gradient(rgba(65, 255, 255, 0.7254901961), rgba(65, 122, 255, 0.7254901961));
+}
+.project:nth-child(13) {
+  background: linear-gradient(rgba(65, 208, 255, 0.7254901961), rgba(65, 71, 255, 0.7254901961));
+}
+.project:nth-child(14) {
+  background: linear-gradient(rgba(65, 160, 255, 0.7254901961), rgba(109, 65, 255, 0.7254901961));
+}
+.project:nth-child(15) {
+  background: linear-gradient(rgba(65, 113, 255, 0.7254901961), rgba(160, 65, 255, 0.7254901961));
+}
+.project:nth-child(16) {
+  background: linear-gradient(rgba(65, 65, 255, 0.7254901961), rgba(211, 65, 255, 0.7254901961));
+}
+.project:hover {
+  transform: scale(1.08);
 }
 
 .img_box {
@@ -47,18 +102,12 @@
   overflow: hidden;
   width: 100%;
   position: relative;
-  transition-property: all;
-  transition-duration: 0.3s;
-  aspect-ratio: 16/9;
-}
-.img_box:hover {
-  transform: scale(1.08);
 }
 
 .project-img {
+  border-radius: 15px;
   width: 100%;
   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
-  aspect-ratio: 16/9;
 }
 
 .over {
@@ -80,4 +129,8 @@
 }
 .over:hover {
   opacity: 100%;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }/*# sourceMappingURL=projets.css.map */

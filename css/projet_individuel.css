@@ -1,0 +1,100 @@
+@font-face {
+  src: url("../media/NeutralFace-Bold.woff2") format("woff2");
+  font-family: "neutral_bold";
+}
+@font-face {
+  src: url("../media/NeutralFace.woff2") format("woff2");
+  font-family: "neutral";
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 40px 10vw;
+}
+
+.header {
+  font-size: 5.2vw;
+  margin-left: 20px;
+  color: #000;
+  font-family: neutral_bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.gray_line {
+  width: 100%;
+  height: 5px;
+  background-color: rgba(0, 0, 0, 0.062745098);
+  border-radius: 50px;
+}
+
+.section {
+  width: 49%;
+  display: inline-block;
+}
+
+.right_section {
+  text-align: right;
+}
+
+.title_line {
+  font-family: neutral;
+  font-size: 2.5vw;
+  margin-top: 40px;
+}
+.title_line .left_section {
+  text-align: left;
+}
+.title_line .left_section .txt {
+  margin-left: 20px;
+}
+.title_line .right_section .txt {
+  margin-right: 20px;
+}
+
+.msg-3d {
+  background-color: 3d;
+}
+
+.msg-video {
+  background-color: video;
+}
+
+.msg-stop {
+  background-color: stop;
+}
+
+.msg-gray {
+  background-color: gray;
+}
+
+.bloc_media {
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  background-color: rgba(0, 0, 0, 0.337254902);
+}
+.bloc_media .media {
+  width: 60%;
+  aspect-ratio: 16/9;
+}
+
+.bloc_presentation {
+  width: 100%;
+  margin-top: 60px;
+}
+.bloc_presentation .bloc {
+  display: inline-block;
+}
+.bloc_presentation_gauche {
+  width: 40%;
+  background-color: red;
+  height: 600px;
+}
+.bloc_presentation_droit {
+  width: 59%;
+  height: 600px;
+  background-color: blue;
+}/*# sourceMappingURL=projet_individuel.css.map */

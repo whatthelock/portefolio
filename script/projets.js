@@ -3,39 +3,39 @@ const app = Vue.createApp({
         return {
             projectArr: [
                 {
-                    name: 'EDRIA',
+                    name: 'edria',
                     image: 'https://i.imgur.com/8YChxHN.png'
                 },
                 {
-                    name: 'Portefolio',
+                    name: 'portefolio',
                     image: 'https://i.imgur.com/FuSIor6.png'
                 },
                 {
-                    name: 'Odyssée',
+                    name: 'odyssée',
                     image: 'https://i.imgur.com/uuc1uBN.png'
                 },
                 {
-                    name: 'Facade',
+                    name: 'facade',
                     image: 'https://i.imgur.com/ZkPqlrB.png'
                 },
                 {
-                    name: 'Mesprit',
+                    name: 'mesprit',
                     image: 'https://i.imgur.com/Y69sctV.png'
                 },
                 {
-                    name: 'Portrait',
+                    name: 'portrait',
                     image: 'https://i.imgur.com/9cVL4pu.png'
                 },
                 {
-                    name: 'Brouhaha',
+                    name: 'brouhaha',
                     image: 'https://i.imgur.com/astKfTk.png'
                 },
                 {
-                    name: 'Jeux Vr',
+                    name: 'jeux Vr',
                     image: 'https://i.imgur.com/kq7GqPg.png'
                 },
                 {
-                    name: 'Jeux Capteur',
+                    name: 'jeux capteur',
                     image: 'https://i.imgur.com/YGUzltK.png'
                 },
                 /*{
@@ -43,31 +43,31 @@ const app = Vue.createApp({
                     image: 'https://i.imgur.com/uuc1uBN.png'
                 },*/
                 {
-                    name: 'Make Noise',
+                    name: 'make Noise',
                     image: 'https://i.imgur.com/iJZ1jVr.jpg'
                 },
                 {
-                    name: 'Pixar',
+                    name: 'pixar',
                     image: 'https://i.imgur.com/bOyfSNh.png'
                 },
                 {
-                    name: 'Personnage',
+                    name: 'personnage',
                     image: 'https://i.imgur.com/VBTzipu.png'
                 },
                 {
-                    name: 'Phobique',
+                    name: 'phobique',
                     image: 'https://i.imgur.com/Q2M6pZM.png'
                 },
                 {
-                    name: 'Jaunâtre',
+                    name: 'jaunâtre',
                     image: 'https://i.imgur.com/Nu5njWg.jpg'
                 },
                 {
-                    name: 'Cristal',
+                    name: 'cristal',
                     image: 'https://i.imgur.com/jj3W8JC.png'
                 },
                 {
-                    name: 'Mai',
+                    name: 'mai',
                     image: 'https://i.imgur.com/T7re8Fz.png'
                 },
             ]

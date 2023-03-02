@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @font-face {
     src: url("../media/NeutralFace-Bold.woff2") format("woff2");
     font-family: "neutral_bold";
@@ -12,11 +14,11 @@
 }
 
 .container{
-    padding: 40px 60px;
+    padding: 40px 10vw;
 }
 
 .header{
-    font-size: 5vw;
+    font-size: 5.2vw;
     margin-left: 20px;
     color: #000;
     font-family: neutral_bold;
@@ -41,6 +43,24 @@
 
 .project{
     width: 100%;
+    border-radius: 15px;
+    transition-property: all;
+    transition-duration: 0.3s;
+    padding: 7px;
+
+    @for $index from 1 through 16 {
+        &:nth-child(#{$index}) {
+
+            $primary-hue : color.adjust(#ff4141b9, $hue: $index*15);
+
+            $second-color: color.adjust($primary-hue, $hue: $index +30);
+            background: linear-gradient($primary-hue, $second-color);
+        }
+    }
+    
+    &:hover{
+        transform: scale(1.08);
+    }
 }
 
 .img_box{
@@ -48,20 +68,12 @@
     overflow: hidden;
     width: 100%;
     position: relative;
-    transition-property: all;
-    transition-duration: 0.3s;
-    aspect-ratio: 16/9;
-    
-    
-    &:hover{
-        transform: scale(1.08);
-    }
 }
 
 .project-img{
+    border-radius: 15px;
     width: 100%;
     box-shadow: 0px 3px 20px rgba($color: #000000, $alpha: 0.30);
-    aspect-ratio: 16/9;
 }
 
 .over{
@@ -84,4 +96,8 @@
     &:hover{
         opacity: 100%;
     }
+}
+
+.uppercase{
+    text-transform: uppercase;
 }
