@@ -25,21 +25,34 @@
             </div>
             <div class="projects_grid">
                 <div v-for="project in projectArr" class="project">
-                    <a v-bind:href="project.name + '.html'">
+                    <a v-bind:href="project.link + '.html'">
                         <div class="img_box">
                             <img :src="project.image" class="project-img p-odyssee" alt="">
                             <div class="over">
                                 <span class="uppercase"></span>{{ project.name }}
                             </div>
                         </div>
-                        <div class="box_test"></div>
                     </a>
                 </div>
             </div>
 
         </div>
     </div>
-
+    <footer class="footer">
+        <div class="footer_left">
+            <div class="footer_left_txt">
+                <a href="mailto:locdelorme@gmail.com">locdelorme@gmail.com</a>
+            </div>
+        </div>
+        <div class="footer_right">
+            <a href="https://www.behance.net/locdelorme" target="_blank">
+                <img src="https://i.imgur.com/ciri5jI.png" alt="behance_logo">
+            </a>
+            <a href="https://www.linkedin.com/in/lo%C3%AFc-delorme-70633024b/" target="_blank">
+                <img src="https://i.imgur.com/EoeaYx7.png" alt="linkedin_logo">
+            </a>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="../script/projets.js"></script>

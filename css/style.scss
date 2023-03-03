@@ -1,4 +1,6 @@
-    @font-face {
+@use "sass:color";
+
+   @font-face {
         src: url("../media/NeutralFace-Bold.woff2") format("woff2");
         font-family: "neutral_bold";
     }
@@ -109,6 +111,9 @@
         }
     }
 
+    @media screen and (max-width: 1300px) { 
+        .plus_texte { display: none; }
+    }
 
     .main-swiper {
         width: 100%;

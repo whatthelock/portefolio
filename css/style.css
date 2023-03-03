@@ -93,6 +93,11 @@ body {
   color: inherit;
 }
 
+@media screen and (max-width: 1300px) {
+  .plus_texte {
+    display: none;
+  }
+}
 .main-swiper {
   width: 100%;
   height: 72vh;
