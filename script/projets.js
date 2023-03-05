@@ -40,7 +40,7 @@ const app = Vue.createApp({
                     link: 'brouhaha'
                 },
                 {
-                    name: 'jeux Vr',
+                    name: "chippin'in",
                     image: 'https://i.imgur.com/kq7GqPg.png',
                     link: 'jeux_vr'
                 },
@@ -74,7 +74,7 @@ const app = Vue.createApp({
                     link: 'phobique'
                 },
                 {
-                    name: 'jaunâtre',
+                    name: 'cauchemar',
                     image: 'https://i.imgur.com/Nu5njWg.jpg',
                     link: 'jaunatre'
                 },
