@@ -45,7 +45,7 @@ const app = Vue.createApp({
                     link: 'jeux_vr'
                 },
                 {
-                    name: 'jeux capteur',
+                    name: 'astro',
                     image: 'https://i.imgur.com/YGUzltK.png',
                     link: 'jeux_capteur'
                 },

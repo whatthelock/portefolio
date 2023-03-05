@@ -302,7 +302,6 @@ body {
   font-size: 1.4vw;
   line-height: 2;
   text-align: justify;
-  padding-bottom: 60px;
 }
 .flex_box .bloc_presentation .bloc {
   display: inline-block;
@@ -341,14 +340,22 @@ body {
   padding-bottom: 0px;
 }
 
-.link_edria {
+.bloc_no_top {
+  margin-top: 20px;
+}
+
+.div_link_edria {
+  text-align: center;
+}
+.div_link_edria .link_edria {
   color: rgb(255, 68, 230);
   text-decoration-color: rgb(255, 68, 230);
-  font-size: 1.3rem;
+  font-size: 1.7rem;
   transition-property: all;
   transition-duration: 0.2s;
+  text-align: right;
 }
-.link_edria:hover {
+.div_link_edria .link_edria:hover {
   text-decoration-color: rgb(111, 1, 194);
   color: rgb(111, 1, 194);
 }
@@ -394,4 +401,28 @@ body {
   width: 18%;
   top: 0;
   right: 0;
+}
+
+.back {
+  text-align: right;
+  font-family: neutral;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  margin-top: 4vh;
+  transition-property: all;
+  transition-duration: 300ms;
+  padding-bottom: 60px;
+  color: rgb(224, 0, 0);
+}
+.back:hover {
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.0862745098);
+  color: #000;
+}
+.back a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.back, .sample {
+  font-size: 1.3vw;
 }/*# sourceMappingURL=projet_individuel.css.map */
