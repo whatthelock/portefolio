@@ -74,7 +74,6 @@ const edSwiper = new Swiper('.ed-swiper', {
     // Optional parameters
     direction: 'horizontal',
     slidesPerView: '1',
-    autoplay: true,
     speed: 1000,
     loop: true,
     autoplay: {
