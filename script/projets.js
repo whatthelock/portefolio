@@ -3,9 +3,9 @@ const app = Vue.createApp({
         return {
             projectArr: [
                 {
-                    name: 'mesprit',
-                    image: 'https://i.imgur.com/Y69sctV.png',
-                    link: 'mesprit'
+                    name: 'edria',
+                    image: 'https://i.imgur.com/8YChxHN.png',
+                    link: 'edria'
                 },
                 {
                     name: 'odyssée',
@@ -18,9 +18,9 @@ const app = Vue.createApp({
                     link: 'facade'
                 },
                 {
-                    name: 'edria',
-                    image: 'https://i.imgur.com/8YChxHN.png',
-                    link: 'edria'
+                    name: 'mesprit',
+                    image: 'https://i.imgur.com/Y69sctV.png',
+                    link: 'mesprit'
                 },
                 // {
                 //     name: 'portefolio',
