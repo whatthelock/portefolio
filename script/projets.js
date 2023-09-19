@@ -4,7 +4,7 @@ const app = Vue.createApp({
             projectArr: [
                 {
                     name: 'edria',
-                    image: 'https://i.imgur.com/8YChxHN.png',
+                    image: 'https://i.imgur.com/brXyJyX.jpg',
                     link: 'edria'
                 },
                 {
